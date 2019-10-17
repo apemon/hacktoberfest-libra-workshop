@@ -1,0 +1,27 @@
+{
+  "name": "hacktoberfest-libra-workshop",
+  "version": "1.0.0",
+  "description": "libra hacktoberfest workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apemon/hacktoberfest-libra-workshop.git"
+  },
+  "keywords": [
+    "blockchain",
+    "libra",
+    "hacktoberfest"
+  ],
+  "author": "Parin Chiamananthapong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apemon/hacktoberfest-libra-workshop/issues"
+  },
+  "homepage": "https://github.com/apemon/hacktoberfest-libra-workshop#readme",
+  "dependencies": {
+    "kulap-libra": "^2.0.2"
+  }
+}
