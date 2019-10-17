@@ -1,4 +1,4 @@
-const { LibraWallet, LibraClient, LibraNetwork, KeyPair } = require("kulap-libra");
+const { LibraWallet, LibraClient, LibraNetwork } = require("kulap-libra");
 
 const client = new LibraClient({network: LibraNetwork.Testnet});
 
@@ -8,7 +8,7 @@ const createWallet = async() => {
 }
 
 // query balance
-const getBalance = async() => {
+const getBalance = async(address) => {
 
 }
 
@@ -30,5 +30,15 @@ const getTransactions = async(address) => {
 (async () => {
     // do something here
     console.log('hello hacktoberfest')
+    // create wallet
+    
+    // get initial balance
+
+    // mint some coin
+
+    // transfer
+
+    // get transaction history
+    
 })()
 
